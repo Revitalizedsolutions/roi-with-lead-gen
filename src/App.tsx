@@ -2,7 +2,10 @@ import { HeartPulse, Activity, TrendingDown, DollarSign } from "lucide-react";
 import { useState } from "react";
 import emailjs from '@emailjs/browser';
 
+emailjs.init("aD6ULh43JeKRfQdGE");
+
 function App() {
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
